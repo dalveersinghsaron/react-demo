@@ -23,7 +23,15 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+ul {
+    display: inline-block;
+    width: 100%;
+    background: transparent;
+}ul li {
+    border: 2px solid;
+    padding: 19px;
+    margin-right: 14px;
+}
 .App-link {
   color: #61dafb;
 }
